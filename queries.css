@@ -6,6 +6,26 @@
     }
     
     .row { padding: 0 2%; }
+    
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(CSS/img/hero.jpg);
+        height: 80vh;
+        width: 100%;
+        background-position: right center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .section-testimonials{
+        margin-top: 4%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        color: white;
+        background-attachment: fixed;
+    }
 }
 
 
