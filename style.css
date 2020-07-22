@@ -212,8 +212,8 @@ input[type=submit] {
 /*====================== Header======================= */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(CSS/img/hero.jpg);
+    background-color: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)); 
+    background-image: url(CSS/img/hero.jpg);
     height: 100vh;
     background-position: top center;
     background-size: cover;
@@ -351,7 +351,7 @@ header {
 
 /*=============== How it works================== */
 .section-step{
-    background-color:rgb(243, 243, 243);
+    background-color: #f3f3f3;
 }
 
 .steps-box{
