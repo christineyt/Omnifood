@@ -163,8 +163,8 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     
-    * {
-    min-height: 560px;
+    header {
+    min-height: 500px;
 }
     section {
         padding: 25px 0;
