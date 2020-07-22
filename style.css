@@ -212,6 +212,7 @@ input[type=submit] {
 /*====================== Header======================= */
 
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(CSS/img/hero.jpg);
     height: 100vh;
     background-position: top center;
@@ -225,6 +226,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     
 }
