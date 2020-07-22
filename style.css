@@ -93,7 +93,7 @@ h2:after {
 
 .mobile-nav-icon ion-icon{
     font-size: 180%;
-    color: white;
+    color: #fff;
 }
 
 
@@ -351,7 +351,7 @@ header {
 
 /*=============== How it works================== */
 .section-step{
-    rgb(243, 243, 243);
+    background-color:rgb(243, 243, 243);
 }
 
 .steps-box{
