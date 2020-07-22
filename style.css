@@ -212,7 +212,7 @@ input[type=submit] {
 /*====================== Header======================= */
 
 header {
-    background-image: url(CSS/img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(CSS/img/hero.jpg);
     height: 100vh;
     background-position: top center;
     background-size: cover;
