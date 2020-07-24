@@ -26,7 +26,9 @@
     body { font-size: 18px; }
     section { padding: 60px 0; }
 
-
+    header {
+        background-image: url(CSS/img/hero-for-small.jpg);
+    }
 
     .long-copy {
         width: 100%;
