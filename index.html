@@ -18,10 +18,13 @@
     <!-- ---------------------------Header Section----------------------------->
     <header>
         <nav>
-            <div class="row">
+            <div class="row" id="NAV" >
+               
                 <img src="img/logo-white.png" alt="Omnifood logo" class="logo">
-                <!-- <img src="img/logo.png" alt="Omnifood logo" class="logo-black"> -->
-                <ul class="main-nav">
+
+            
+                <ul class="main-nav" >
+                    <img src="img/logo-white.png" alt="Omnifood logo" class="logo-nav">    
                     <li>
                         <a href="#features">Food delivery</a>
                     </li>
@@ -35,8 +38,8 @@
                         <a href="#plans">Sign up</a>
                     </li>
                 </ul>
-                <a class="mobile-nav-icon">
-                    <ion-icon name="reorder-three-sharp"></ion-icon>
+                <a class="mobile-nav-icon" >
+                    <ion-icon name="reorder-three-sharp" id="btn"></ion-icon>
                 </a>
             </div>
         </nav>
@@ -463,10 +466,11 @@
 
     </footer>
 
-
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.1.1/dist/ionicons.js"></script>
-
+    
 
 </body>
 </html>
